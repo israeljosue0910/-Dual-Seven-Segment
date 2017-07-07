@@ -46,7 +46,7 @@
 // Pins for A B C D E F G, in sequence
 const int segs[7] = { A, B, C, D, E, F_SEG, G };
 
-// Segments that make each number, sends a 1 to the segment that will be turned on to display the numbers
+// Segments that make each number, sends a 0(low) to the segment that will be turned on to display the numbers
 const byte numbers[10] = { 0b1000000, 0b1111001, 0b0100100, 0b0110000, 0b0011001, 0b0010010,
 0b0000010, 0b1111000, 0b0000000, 0b0010000 };  
 
